@@ -1,0 +1,9 @@
+.carta{
+	text-align: center;
+	
+}
+.carta-link{
+	&:hover{
+	  color: red;
+	}
+}

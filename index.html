@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./estilos/style.css">
+	<title>Emeve</title>
+</head>
+
+<body>
+	<a class="inicio"> 
+	<header class="header">
+		<nav class="navbar navbar-expand-lg bg-light">
+			<div class="container-fluid">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+					  <img src="imagenes/logo.jpg">
+					
+					</a>
+				  </div>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav nav-fill">
+					<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#trabajos">Nuestro servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="informacion.html">Informacion útil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		</nav>
+	</header>	
+				  
+<!--Slider-->				
+	<div id="carouselExampleCaptions" class="carousel slide slider" data-bs-ride="false">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="./imagenes/Slider-01.jpg" class="d-block w-100" alt="slider1">
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Slider de Prueba 1</h5>
+			  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, natus quidem laborum architecto in at odio delectus harum ab reiciendis eum optio mollitia debitis ea dolore sint. Asperiores, nostrum vitae?</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="./imagenes/Slider-02.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Slider de prueba 2</h5>
+			  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni sed molestias mollitia voluptate quis perspiciatis, debitis provident illo aliquam pariatur quibusdam obcaecati aut laudantium, atque autem aliquid odit. Mollitia, necessitatibus.</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="./imagenes/Slider-03.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+			  <h5 class="texto-slider">slider de prueba 3</h5>
+			  <p class="texto-slider">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, delectus itaque sequi quidem enim reprehenderit cumque maxime deleniti repudiandae laborum accusantium corrupti modi eum libero provident reiciendis? Quis, molestias voluptatum!</p>
+			</div>
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	  </div>		
+			
+<!--cartas-->
+<a name="trabajos"></a>
+<div class="div-cartas">
+	<div data-aos="zoom-in-up" class="card mb-3 aos-init aos-animate mx-auto pt-5 carta " style="max-width: 540px;">
+		<div class="row g-0">
+	  	<div class="col-md-4">
+			<img src="./imagenes/carta1.jpg" class="img-fluid rounded-start" alt="carta1">
+	</div>
+	  <div class="col-md-8">
+		<div class="card-body">
+		  <h5 class="card-title">Fabricación de tableros eléctricos</h5>
+		  <p class="card-text">Fabricación de tableros de todo tipo y tamaño a pedido sobre planos, con fines comerciales e industriales.</p>
+		  <p class="card-text"><small class="text-muted"><a class="nav-link" href="contacto.html">Contacto</a></small></p>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!--carta 2-->
+  <div data-aos="zoom-in-up" class="card mb-3 aos-init aos-animate mx-auto pt-5 carta" style="max-width: 540px;">
+	<div class="row g-0">
+	  <div class="col-md-4">
+		<img src="./imagenes/carta2.jpg" class="img-fluid rounded-start" alt="carta2">
+	  </div>
+	  <div class="col-md-8">
+		<div class="card-body">
+		  <h5 class="card-title">Ingeniería y proyectos a medida</h5>
+		  <p class="card-text">Nuestro objetivo para nuestro cliente es lograr la mejor relación costo / beneficio.</p>
+		  <p class="card-text"><small class="text-muted"><a class="nav-link" href="contacto.html">Contacto</a></small></p>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!--carta3-->
+  <div data-aos="zoom-in-up" class="card mb-3 aos-init aos-animate mx-auto pt-5 carta" style="max-width: 540px;">
+	<div class="row g-0">
+	  <div class="col-md-4">
+		<img src="./imagenes/carta3.jpg" class="img-fluid rounded-start" alt="carta3">
+	  </div>
+	  <div class="col-md-8">
+		<div class="card-body">
+		  <h5 class="card-title">Transferencias automáticas de equipos</h5>
+		  <p class="card-text">Utilizamos materiales de excelente calidad y hacemoos hincapié en las terminaciones y detalles.</p>
+		  <p class="card-text"><small class="text-muted"><a class="nav-link" href="contacto.html">Contacto</a></small></p>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!--carta4-->
+  <div data-aos="zoom-in-up" class="card mb-3 aos-init aos-animate mx-auto pt-5 carta" style="max-width: 540px;">
+	<div class="row g-0">
+	  <div class="col-md-4">
+		<img src="./imagenes/carta4.jpg" class="img-fluid rounded-start" alt="carta4">
+	  </div>
+	  <div class="col-md-8">
+		<div class="card-body">
+		  <h5 class="card-title">Grupos electrógenos – EMEVE</h5>
+		  <p class="card-text">Instalación de equipos, mantenimiento preventivo y reparaciones de equipos existentes.</p>
+		  <p class="card-text"><small class="text-muted"><a class="nav-link" href="contacto.html">Contacto</a></small></p>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+	
+	
+<!--separador-->
+	  
+<div data-aos="fade-right" class="separador"></div>
+ 
+<!--nosotros-->
+
+<a name="nosotros"></a>
+	<div class="nosotros"> 
+		<div class="nosotros_txt">
+			
+				<h3 data-aos="zoom-in-up">
+					LE BRINDAMOS A SU EMPRESA UNA AMPLIA GAMA DE SERVICIOS EN MATERIA DE TABLEROS ELÉCTRICOS.
+				</h3>
+			<p data-aos="zoom-in-up">
+				Brindamos una solución integral a sus proyectos, ofreciendo asesoramiento personalizado haciendo foco en los resultados.
+			</p>
+		
+		
+			<p data-aos="zoom-in-up">
+				Somos una empresa  con una trayectoria de más de 20 años en el mercado; dedicada al proyecto, fabricación, ensayo y puesta en marcha de tableros eléctricos.
+			</p>
+		
+		
+		
+			<p data-aos="zoom-in-up">
+				Nuestro equipo de profesionales está altamente capacitado y cuenta con una vasta experiencia proyectando y fabricando los más variados tipos y modelos para diversas prestaciones.
+			</p>
+		
+		
+			<p data-aos="zoom-in-up">
+				Tablero Eléctrico | Emeve cumplen con los requerimientos y estándares de empresas de primera línea; desde compañías de generación, transporte y distribución de energía eléctrica, como así también compañías de telefonía fija y celular, cadenas de súper e hipermercados, cadenas farmacéuticas, locales de comida rápida, locales de cafetería, industrias químicas, laboratorios, frigoríficos, empresas metalúrgicas, industrias del plásticos, empresas del rubro alimenticio y del petrolero, estaciones de servicio, hoteles, edificios de oficinas o viviendas y los principales bancos que operan en nuestro país.
+			</p>
+		
+		
+			<p data-aos="zoom-in-up">
+				Nuestros tableros eléctricos están instalados en todas partes del país y países limítrofes, han sido montados en máquinas o equipos que se han exportado a todas partes del mundo. De esta manera EMEVE es una empresa con amplia presencia en el mercado del rubro eléctrico.
+			</p>
+		</div>
+	
+	
+	
+		<div data-aos="fade-right" class="nosotros_logo">
+			<img src="./imagenes/logo.jpg">
+		</div>
+		<div>
+			<div class="nosotros_empresa">
+				<h4 data-aos="fade-right">
+					Tableros Eléctricos | Emeve
+				</h4>
+				<p data-aos="fade-right">
+					+ 20 años en el mercado
+				</p>
+				<p data-aos="fade-right">+ Trayectora nacional e
+					internacional
+				</p>
+					
+				
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 logo-footer">
+				<img src="./imagenes/logo.jpg">
+			</div>
+			<div class="col-sm-6">
+				<img src="./imagenes/ubicacion.jpg" alt="tableros">
+				<strong>Direccion</strong>
+				"Domingo F. Sarmiento 2019, San Andrés, Buenos Aires, Argentina" <br>
+				<img src="./imagenes/telefono.jpg" alt="tableros">
+				<strong>Telefono/Whatsapp</strong>
+				"+54 9 11 6194-7951" <br>
+				<img src="./imagenes/Correo.jpg" alt="tableros">
+				<strong>Correo</strong>
+				"info@emeve.com.ar"
+			</div>
+	</div>
+	</div>
+
+</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000
+		});
+	  </script>
+</body>
+</html>
