@@ -1,36 +1,35 @@
 .nosotros{
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-template-rows: 1fr 1fr;
-	grid-template-areas: 
-	"logo txt"
-	"empresa txt";
-    .nosotros_txt{
-        grid-area: txt;
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: space-evenly;
-	    text-align: center;
-        p,h3{
-            margin: 30px;
-        }
-    }
-}
-.nosotros_logo{
-	grid-area: logo;
-	align-self: center;
-	justify-self: center;
-}
-.nosotros_empresa{
-	grid-area: empresa;
-	p{
-		margin-top: 30px;
-		margin-bottom: 30px;
-		text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	.nosotros_izquierda{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		.nosotros_logo{
+			width: auto
+		}
+		
 	}
-	h4{
-		margin-top: 0px;
+	.nosotros_txt{
+		@extend .nosotros_izquierda;
 		text-align: center;
+		p{
+			@include links($color, $size);
+			margin-top: map-get($map: $margin, $key: nav );
+			&:hover{
+				color: black;
+			
+				}
+		}
 	}
 }
+
+
+	
+	
+	
+
 

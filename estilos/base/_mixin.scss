@@ -1,0 +1,8 @@
+$color: black;
+$size: 15px;
+
+@mixin  links ( $color, $size) {
+    font-size: $size;
+    color: $color;
+    
+}

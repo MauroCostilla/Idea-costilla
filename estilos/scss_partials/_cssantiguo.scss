@@ -39,7 +39,7 @@
 }
 
 
-@media (max-width: 480px){
+@media (max-width: 760px){
 
 /*header*/
 .header{
@@ -80,25 +80,9 @@
 
 /*textos*/
 
-.nosotros{
-grid-template-columns: 1fr;
-grid-template-rows: 0.5fr 2fr;
 
-	grid-template-areas: 
-	"logo"
-	"txt";
-}
 
-.nosotros_empresa{
-	display: none;
-	
-}
 
-/*footer*/
-.logo-footer img{
-	margin-left: 20%;
-	
-}
 
 /*Pagina de informacion*/
 

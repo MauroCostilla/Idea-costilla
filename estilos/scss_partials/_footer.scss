@@ -1,0 +1,13 @@
+.footer{
+    @extend .nosotros;
+    margin-top: map-get($map: $margin, $key: l );
+    border-top: 1px black solid;
+    .footer_datos{
+        text-align: center;
+    }
+    .logo-footer{
+        display: flex;
+        justify-content: center;
+    }
+}
+
