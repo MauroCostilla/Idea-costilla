@@ -1,0 +1,12 @@
+.div_informacion{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     padding-top: map-get($map: $margin, $key: xl );
+     .tabla_informacion{
+        margin-top: map-get($map: $margin, $key:l );
+     }
+     img{
+        width: 100%;
+     }
+}
