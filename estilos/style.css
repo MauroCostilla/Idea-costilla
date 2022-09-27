@@ -116,6 +116,15 @@
 .slider_div {
   padding-top: 150px;
 }
+.slider_div h5 {
+  color: blue;
+  font-weight: bold;
+  font-size: x-large;
+}
+.slider_div p {
+  color: white;
+  font-weight: bold;
+}
 
 .div_informacion {
   display: flex;
