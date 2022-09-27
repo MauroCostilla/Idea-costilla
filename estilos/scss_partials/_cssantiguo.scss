@@ -41,30 +41,8 @@
 
 @media (max-width: 760px){
 
-/*header*/
-.header{
-	position: relative;
-}
-.header-nav{
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr;
-	grid-template-areas: 
-	"logo"
-	"nav";
-}
-.nav{
-	flex-direction: column;
-}
 
-/*slider*/
-.slider-div{
-	padding-top: 50px;
-	
-}
-.slider-div img{
-		width: 90%;
-		
-	}
+
 
 
 /*cartas*/

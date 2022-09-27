@@ -10,7 +10,8 @@
   background-color: white;
   z-index: 100;
   width: 100%;
-  height: auto;
+  height: 100px;
+  padding-bottom: 100px;
 }
 .header .container-fluid {
   width: 80%;
@@ -23,6 +24,16 @@
 }
 .header .container-fluid .nav-item .nav-link:hover {
   color: red;
+}
+
+.nav_list {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container_img {
+  display: flex;
+  justify-content: center;
 }
 
 .carta {
@@ -109,25 +120,6 @@
 }
 
 @media (max-width: 760px) {
-  /*header*/
-  .header {
-    position: relative;
-  }
-  .header-nav {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "logo" "nav";
-  }
-  .nav {
-    flex-direction: column;
-  }
-  /*slider*/
-  .slider-div {
-    padding-top: 50px;
-  }
-  .slider-div img {
-    width: 90%;
-  }
   /*cartas*/
   .cards {
     flex-direction: column;
@@ -167,4 +159,8 @@
 .footer .logo-footer {
   display: flex;
   justify-content: center;
+}
+
+.slider_div {
+  padding-top: 150px;
 }/*# sourceMappingURL=style.css.map */
