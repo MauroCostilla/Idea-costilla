@@ -105,6 +105,39 @@
   font-family: "Rubik", sans-serif;
 }
 
+.social {
+  position: fixed;
+  left: 0;
+  top: 200px;
+  z-index: 2000;
+}
+.social ul {
+  list-style: none;
+}
+.social ul li a {
+  display: inline-block;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: all 500ms ease;
+}
+.social ul li a:hover {
+  background: #000;
+  padding: 10px 30px;
+}
+
+.icon-linkedin {
+  background: #00abf0;
+}
+
+.icon-whatsapp {
+  background: #23e30e;
+}
+
+.icon-instagram {
+  background: #b61d50;
+}
+
 @media (max-width: 760px) {
   /*separador*/
   .separador {
