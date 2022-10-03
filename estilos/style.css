@@ -108,7 +108,7 @@
 .social {
   position: fixed;
   left: 0;
-  top: 200px;
+  bottom: 0px;
   z-index: 2000;
 }
 .social ul {
