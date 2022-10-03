@@ -9,4 +9,18 @@
 
 .formulario{
     padding-top: map-get($map: $margin, $key: xxl );
+    
 }
+.boton-send{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        button{
+            background-color: white;
+            color: black;
+            
+          
+        }
+        
+        }
+    

@@ -205,4 +205,14 @@
 
 .formulario {
   padding-top: 250px;
+}
+
+.boton-send {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.boton-send button {
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
