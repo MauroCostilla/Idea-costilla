@@ -1,5 +1,6 @@
 .slider_div{
     padding-top: map-get($map: $margin, $key: xl );
+    padding-bottom: 15px;
     .texto-slider{
         background: black;
         opacity: .9;
