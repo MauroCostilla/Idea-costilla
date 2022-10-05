@@ -155,6 +155,7 @@
 .footer {
   margin-top: 100px;
   border-top: 1px black solid;
+  margin-bottom: 10px;
 }
 .footer .footer_datos {
   text-align: center;
@@ -215,6 +216,16 @@
   margin-bottom: 50px;
 }
 .boton-send button {
+  width: 75px;
+  height: 30px;
   background-color: white;
   color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+}
+.boton-send button:hover {
+  box-shadow: 0 4px 16px red;
+  transition: all 0.2s ease;
 }/*# sourceMappingURL=style.css.map */
